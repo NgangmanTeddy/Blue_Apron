@@ -1,0 +1,266 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+=================================================================================
+=================================================================================
+# Base
+  – normalize.css
+  – layout.css
+  – typography.css
+=================================================================================
+=================================================================================
+*/
+
+/* LAYOUT */
+
+/* 
+=================================================================================
+=================================================================================
+ hero
+=================================================================================
+=================================================================================
+*/
+
+.hero {
+	background-color: aliceblue;
+	height: 120vh;
+}
+
+.hero_head {
+	background-color: aqua;
+	height: 8%;
+}
+
+.hero_head p {
+	display: inline;
+}
+
+.hero_main {
+	position: relative;
+}
+
+.hero_sub {
+	background-color: darksalmon;
+	width: 450px;
+	height: 60%;
+	position: absolute;
+	top: 20%;
+	left: 4%;
+}
+
+.hero_main {
+	background-color: aquamarine;
+	height: 52%;
+}
+
+.hero_btm {
+	background-color: bisque;
+	height: 40%;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ after hero
+=================================================================================
+=================================================================================
+*/
+
+.aft_hr {
+	background-color: teal;
+	height: 32vh;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ our offers
+=================================================================================
+=================================================================================
+*/
+
+.offers {
+	background-color: blue;
+	height: 120vh;
+}
+
+.cat {
+	background-color: khaki;
+	width: 220px;
+	height: 300px;
+	display: inline-block;
+	float: left;
+}
+
+.cat_btm {
+	clear: both;
+}
+
+/* 
+=================================================================================
+=================================================================================
+ qlt
+=================================================================================
+=================================================================================
+*/
+
+.qlt {
+	background-color: blueviolet;
+	width: 85%;
+	height: 110vh;
+	margin: 0 auto;
+}
+
+.qlt_main {
+	background-color: chartreuse;
+	width: 30%;
+	height: 50vh;
+	float: left;
+	margin: 0 15px;
+}
+
+.qlt_btm {
+	background-color: chocolate;
+	clear: both;
+	height: 30%;
+}
+
+.qlt_head {
+	background-color: cornflowerblue;
+	height: 24.5%;
+}
+
+/* 
+=================================================================================
+=================================================================================
+ act
+=================================================================================
+=================================================================================
+*/
+
+.act {
+	background-color: brown;
+	height: 89vh;
+	position: relative;
+}
+
+.act_main {
+	background-color: cyan;
+	height: 70%;
+	width: 50%;
+	margin: auto;
+	position: absolute;
+	top: 15%;
+	left: 23%;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ start
+=================================================================================
+=================================================================================
+*/
+
+.start {
+	background-color: cadetblue;
+	height: 56vh;
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.start_main {
+	background-color: darkblue;
+	width: 50%;
+	height: 70%;
+	position: absolute;
+	top: 14%;
+	left: 23%;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ article
+=================================================================================
+=================================================================================
+*/
+
+article {
+	background-color: hotpink;
+	height: 25vh;
+}
