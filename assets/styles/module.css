@@ -148,6 +148,11 @@ article {
 	height: 147px;
 }
 
+.art_left p {
+	color: #303235;
+	text-align: center;
+}
+
 .art_div {
 	background-color: steelblue;
 	width: 1px;
@@ -159,9 +164,31 @@ article {
 	background-color: springgreen;
 	width: 305px;
 	height: 147px;
-
 }
 
+.blog {
+	background-color: teal;
+	width: 200px;
+	height: 71px;
+	margin: 0 auto;
+}
+
+.blog_img {
+	background-color: thistle;
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+
+.art_right p:first-of-type {
+	color: #303235;
+	text-align: center;
+}
+
+.blog p:last-of-type {
+	display: inline-block;
+	text-align: left;
+}
 /*
 ==================================================================================
 ==================================================================================

@@ -108,6 +108,7 @@ Box Model
 	padding: 15px 16px;
 }
 
+
 /*
 ==================================================================================
  footer list
@@ -133,16 +134,28 @@ Box Model
 	background-color: turquoise;
 	width: 49.3%;
 	height: 196px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
 }
 
 .left_ul li {
 	width: 32.7%;
+	display: flex;
+	align-items: center;
 }
+
 
 .mid_ul {
 	background-color: tan;
 	display: inline-block;
 	width: 24.6%;
+}
+
+.mid_ul li {
+	display: flex;
+	align-items: center;
 }
 
 .right_ul {
@@ -153,14 +166,109 @@ Box Model
 
 .right_ul li {
 	width: 100%;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+
 }
 
-.right_ul li {
-	width: 100%;
+
+
+/*
+==================================================================================
+==================================================================================
+ buttons
+==================================================================================
+==================================================================================
+*/
+
+.span {
+	display: inline-block;
+	background-color: thistle;
+	border-radius: 30px;
+	border: none;
 }
 
+.s_u {
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 0;
+	padding: 10px 30px;
+}
 
+.r_o {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500px;
+	width: auto;
+	height: max-content;
+	color: white;
+	border-radius: 0;
+	padding: 9px 25px;
+	margin-left: 30px;
+}
 
+.med_btn {
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	width: 151px;
+	height: 50px;
+	padding: 0 24px;
+}
 
+.b_1 {
+	line-height: 50px;
+	margin-top: 30px;
+}
 
+.b_2 {
+	font-weight: 300;
+	margin-top: 19px;
+	line-height: 50px;
+}
 
+.s_s {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #002c9b;
+	width: 121.44px;
+	height: 40px;
+	padding: 12px 24px;
+	margin: 20px 50px 0 0;
+}
+
+.o_c {
+	width: 151.04px;
+	height: 50px;
+	margin-top: 24px;
+	padding: 0px 24px;
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 16px;
+}
+
+.b_o {
+	width: 256px;
+	height: 48px;
+	border: 2px solid rgb(0, 44, 155);
+	line-height: 48px;
+	color: rgb(0, 44, 155);
+	letter-spacing: 2px;
+}
+
+.b_m {
+	font-size: 16px;
+	font-weight: 500;
+	color: #002c9b;
+	padding: 16px 45px;
+}
+
+.s_b {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	padding: 12px 70px;
+}
